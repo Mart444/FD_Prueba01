@@ -33,6 +33,7 @@ public class Bidimensional {
                 System.out.println("Valores : " +bidimensional[i][j]);    
             }
         }
+        
     }
     
 }
