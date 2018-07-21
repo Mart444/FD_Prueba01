@@ -10,7 +10,22 @@ package Programa;
  * @author Administrador
  */
 public class Ejecutar {
-    //Mi Primer Comentario para GIT
     
+   static double radio_circulo = 6.5;
+   static final double valor_pi = 3.1516;
+   
+    public static void main(String[] args) {
+        System.out.println("El valor de la variable es: " +radio_circulo);
+        System.out.println("El valor de la constante es: " +valor_pi);
+        //cambiando valores
+        radio_circulo = 1.4;
+        System.out.println("El valor de la variable es:" + radio_circulo);
+        
+        
+               
+        
+    }
+    //Mi Primer Comentario para GIT
+ 
     
 }
